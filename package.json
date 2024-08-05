@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "build:css": "tailwindcss -i ./public/stylesheets/tailwind.css -o ./public/stylesheets/style.css"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
@@ -14,5 +15,8 @@
     "http-errors": "~1.6.3",
     "mongoose": "^8.5.1",
     "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
   }
 }
