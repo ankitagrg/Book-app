@@ -6,7 +6,7 @@ This app was developed to showcase the use of Node.js, MongoDB, and Express, all
  Clone the repository:https://github.com/ankitagrg/book-app.git
 
 
- Navigate to the project directory: cd BookApp
+ Navigate to the project directory: cd book-app
 
 
  Install the dependencies: npm install
